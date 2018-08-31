@@ -1,0 +1,101 @@
+body {
+  background-color: #FFEFE5;
+  color: #0C485E;
+  font-family: 'Nunito', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.landing {
+   padding-bottom: 150px;
+}
+
+.tranparent {
+  background-color: transparent;
+}
+
+.nav-link {
+  font-size: 14px;
+  color: #0C485E !important;
+  font-family: 'Nunito', sans-serif;
+}
+
+.nav-item {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.landing-buttons {
+  max-width: 350px;
+  margin: auto;
+}
+
+.landing-content {
+  margin-top: 150px;
+}
+
+.landing-content h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.landing-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.landing-content p {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.dpd-btn {
+  border-radius: 19px;
+  font-size: 14px;
+  padding: .375rem 2rem;
+}
+
+.dark-btn {
+  background-color: #0C485E;
+  color: #FFEFE5;
+}
+
+.trans-btn {
+  background-color: transparent;
+  color: #0C485E;
+  border-color: #0C485E;
+}
+
+/* About */
+.about{
+  padding: 10px 190px;
+}
+
+.about-row{
+   margin-bottom: 100px;
+}
+.about h2{
+   font-size: 36px;
+   font-weight: bold;
+   margin-bottom: 20px;
+}
+
+.about p{
+  font-size: 18px;
+  font-weight: 300px;
+}
+.teaching p{
+  margin: auto;
+  width: 650px;
+  margin-bottom: 50px;
+}
+
+.prof-images{
+     margin: auto;
+     width: 600px;
+     margin-bottom: 50px;
+}
