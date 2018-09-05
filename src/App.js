@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import aboutImg from './images/about.png'
 import profileImage from './images/profileImage.png'
-import Navigation from './componeants/Navigation/Navigation';
+import Navigation from './components/Navigation/Navigation';
 
 class App extends Component {
   render() {
@@ -69,8 +69,6 @@ class App extends Component {
             <div className="col-12 text-center end-text">
               <p>Say hello! We’re friendly, we promise </p>
             </div>
-
-
           </div>
 
         </div>
