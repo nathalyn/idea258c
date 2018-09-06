@@ -1,11 +1,13 @@
 import React from 'react';
 import aboutImg from '../../images/about.png';
 import profileImage from '../../images/profileImage.png';
+import {Link} from "react-router-dom";
+
 
 const About = () => {
 
     return (
-        <section>
+        <section className="section">
             <div className="landing">
                 <div className="landing-content">
                     <h3>Welcome to</h3>
@@ -17,11 +19,10 @@ const About = () => {
                                 <button type="button" className="btn dpd-btn trans-btn">Learn More</button>
                             </div>
                             <div className="col">
-                                <button type="button" className="btn dpd-btn dark-btn">Class Schedule</button>
+                                <Link to="/schedule"><button type="button" className="btn dpd-btn dark-btn">Class Schedule</button> </Link>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div className="about">

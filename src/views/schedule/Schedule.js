@@ -23,8 +23,8 @@ const Schedule = () => {
     ]
 
     const renderScheduleData = (data) => {
-        return (data.map(week => (
-            <tr>
+        return (data.map((week, index) => (
+            <tr key={index}>
                 <td scope="row">{week.date}</td>
                 <td>{week.topic}</td>
                 <td>{week.assignment}</td>
@@ -33,8 +33,8 @@ const Schedule = () => {
     }
     return (
         <section className="section">
-            <div className=" landing schedule-landing">
-                <h3 className="text-center">Check the schedule regularly to keep up with learning goals and assignments.</h3>
+            <div className="landing-text-div schedule-landing">
+                <h3 className="text-center font-weight-light">Check the schedule regularly to keep up with learning goals and assignments.</h3>
             </div>
             <div>
                 <ThisWeek />

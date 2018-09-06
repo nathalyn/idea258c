@@ -10,7 +10,6 @@ import {Route, Link } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-
       <div className="App">
         <Navigation />
         <Route exact path="/" component={About} />

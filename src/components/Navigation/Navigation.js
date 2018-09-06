@@ -18,7 +18,7 @@ const Navigation = () => {
                         <Link to="/resources" className="nav-link">Resources</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/" className="nav-link">Funsies</Link>
+                        <Link to="#" className="nav-link disabled">Funsies</Link>
                     </li>
                 </ul>
             </div>
