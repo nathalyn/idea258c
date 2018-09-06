@@ -27,9 +27,37 @@ body {
   margin-right: 14px;
 }
 
+/* Shared styles */
+.landing-text-div{
+  padding-top: 127px;
+  padding-bottom: 127px;
+}
 .landing-buttons {
   max-width: 350px;
   margin: auto;
+}
+
+.section{
+  width: 800px;
+  margin: auto;
+}
+
+h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.table > tbody > tr > td{
+  border-color: #0C485E;
+  font-size: 18px;
+}
+.table > thead > tr > th{
+  border-color: transparent;
+  font-size: 18px;
+}
+.table{
+  text-align: left;
 }
 
 .landing-content {
@@ -99,3 +127,4 @@ body {
      width: 600px;
      margin-bottom: 50px;
 }
+
