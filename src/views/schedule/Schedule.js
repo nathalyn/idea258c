@@ -3,23 +3,44 @@ import './schedule.css';
 import ThisWeek from '../../components/this-week/ThisWeek'
 
 const Schedule = () => {
-
+  
     const scheduleData = [
         {
             date: '8/30',
-            topic: 'Scoping out a project',
-            assignment: 'Scoping out a project'
+            topic: 'Course Intro, What is Product Design?',
+            assignment: 'Problem Exploration'
         },
         {
-            date: '8/30',
-            topic: 'Scoping out a project',
-            assignment: 'Scoping out a project'
+            date: '9/06',
+            topic: 'Problem definition, Scoping A Project',
+            assignment: 'Problem Scope'
         },
         {
-            date: '8/30',
-            topic: 'Scoping out a project',
-            assignment: 'Scoping out a project'
+            date: '9/13',
+            topic: 'User Research, Asking the right questions',
+            assignment: 'Research Methodology'
         },
+        {
+            date: '9/20',
+            topic: 'Design Tools: Sketch & Figma',
+            assignment: 'Daily UI'
+        },
+        {
+            date: '9/27',
+            topic: 'Wireframing & Low-fidelity mockups',
+            assignment: 'Finalize Wireframes'
+        },
+        {
+            date: '10/04',
+            topic: 'Guest Lecture: Presenting & Critiquing work',
+            assignment: 'Work on midpoint presentations'
+        },
+        {
+            date: '10/11',
+            topic: 'Midpoint presentations',
+            assignment: 'TBD'
+        },
+        
     ]
 
     const renderScheduleData = (data) => {
@@ -40,7 +61,7 @@ const Schedule = () => {
                 <ThisWeek />
             </div>
             <div>
-                <h2 className="text-left">Schedule</h2>
+                
                 <table className="table">
                     <thead>
                         <tr>
