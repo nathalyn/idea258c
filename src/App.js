@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navigation from './components/Navigation/Navigation';
+import Navigation from './components/navigation/Navigation';
 import About from './views/about/About';
 import Schedule from './views/schedule/Schedule';
 import Resources from './views/resources/Resources';
